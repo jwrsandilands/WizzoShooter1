@@ -21,5 +21,20 @@ public class PlayerController : MonoBehaviour
 
         rb2D.velocity = new Vector2(x, y) * speed;
         rb2D.angularVelocity = 0.0f;
+
+        //Vector2 moveDirection = gameObject.GetComponent<Rigidbody2D>().velocity;
+        //if (moveDirection != Vector2.zero)
+
+        if (GetComponent<Rigidbody2D>().velocity.x > 0)
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        if (GetComponent<Rigidbody2D>().velocity.x < 0)
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+
     }
 }
