@@ -12,11 +12,11 @@ Perhaps Wizzo may still be able to find the magical power he is looking for from
 W A S D - Move
 Space - Shoot Magic Fire Missile
 N - Swing Sword
-  - Shield Ram
+[Unassigned] - Shield Ram
   
 #Other Links
 trello  -  https://trello.com/b/ngaohge4/wizzos-vvoid
 itch.io  -  
-Git Repository  -  
+Git Repository  -  https://github.com/jwrsandilands/WizzoShooter1
 
 #I hope you enjoy!
