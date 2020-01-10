@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        GameObject WizzoPlayer = GameObject.FindWithTag("WizzoPlayer");
+        GameObject WizzoPlayer = GameObject.FindWithTag("Player");
         onSpawn.Invoke(WizzoPlayer.transform);
     }
 }
